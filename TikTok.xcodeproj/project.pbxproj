@@ -16,8 +16,17 @@
 		2C0CFC572A56E5080032A3D3 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 2C0CFC562A56E5080032A3D3 /* Classes */; };
 		2C0CFC632A56E8240032A3D3 /* TikTokOpenSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0CFC5D2A56E8240032A3D3 /* TikTokOpenSDKCore.framework */; };
 		2C0CFC642A56E8240032A3D3 /* TikTokOpenSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0CFC5D2A56E8240032A3D3 /* TikTokOpenSDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		2C0CFC6A2A56E8370032A3D3 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 2C0CFC692A56E8370032A3D3 /* Classes */; };
 		2C0CFC6C2A56E8640032A3D3 /* TikTokOpenSDKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0CFC6B2A56E8640032A3D3 /* TikTokOpenSDKCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C0CFC832A56EB1A0032A3D3 /* TikTokRequestHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CFC762A56EB1A0032A3D3 /* TikTokRequestHandling.swift */; };
+		2C0CFC842A56EB1A0032A3D3 /* TikTokBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CFC772A56EB1A0032A3D3 /* TikTokBase.swift */; };
+		2C0CFC852A56EB1A0032A3D3 /* TikTokURLQueryParamsConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CFC782A56EB1A0032A3D3 /* TikTokURLQueryParamsConvertible.swift */; };
+		2C0CFC862A56EB1A0032A3D3 /* TikTokResponseHandling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CFC792A56EB1A0032A3D3 /* TikTokResponseHandling.swift */; };
+		2C0CFC872A56EB1A0032A3D3 /* TikTokRSA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CFC7B2A56EB1A0032A3D3 /* TikTokRSA.swift */; };
+		2C0CFC882A56EB1A0032A3D3 /* TikTokUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CFC7C2A56EB1A0032A3D3 /* TikTokUtils.swift */; };
+		2C0CFC892A56EB1A0032A3D3 /* TikTokInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CFC7D2A56EB1A0032A3D3 /* TikTokInfo.swift */; };
+		2C0CFC8A2A56EB1A0032A3D3 /* TikTokURLHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CFC7F2A56EB1A0032A3D3 /* TikTokURLHandler.swift */; };
+		2C0CFC8B2A56EB1A0032A3D3 /* TikTokAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CFC812A56EB1A0032A3D3 /* TikTokAPI.swift */; };
+		2C0CFC8C2A56EB1A0032A3D3 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 2C0CFC822A56EB1A0032A3D3 /* .gitkeep */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +65,17 @@
 		2C0CFC422A56E4EC0032A3D3 /* TikTokOpenShareSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TikTokOpenShareSDK.docc; sourceTree = "<group>"; };
 		2C0CFC562A56E5080032A3D3 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		2C0CFC5D2A56E8240032A3D3 /* TikTokOpenSDKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TikTokOpenSDKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C0CFC692A56E8370032A3D3 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		2C0CFC6B2A56E8640032A3D3 /* TikTokOpenSDKCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TikTokOpenSDKCore.h; sourceTree = "<group>"; };
+		2C0CFC762A56EB1A0032A3D3 /* TikTokRequestHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokRequestHandling.swift; sourceTree = "<group>"; };
+		2C0CFC772A56EB1A0032A3D3 /* TikTokBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokBase.swift; sourceTree = "<group>"; };
+		2C0CFC782A56EB1A0032A3D3 /* TikTokURLQueryParamsConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokURLQueryParamsConvertible.swift; sourceTree = "<group>"; };
+		2C0CFC792A56EB1A0032A3D3 /* TikTokResponseHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokResponseHandling.swift; sourceTree = "<group>"; };
+		2C0CFC7B2A56EB1A0032A3D3 /* TikTokRSA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokRSA.swift; sourceTree = "<group>"; };
+		2C0CFC7C2A56EB1A0032A3D3 /* TikTokUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokUtils.swift; sourceTree = "<group>"; };
+		2C0CFC7D2A56EB1A0032A3D3 /* TikTokInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokInfo.swift; sourceTree = "<group>"; };
+		2C0CFC7F2A56EB1A0032A3D3 /* TikTokURLHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokURLHandler.swift; sourceTree = "<group>"; };
+		2C0CFC812A56EB1A0032A3D3 /* TikTokAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokAPI.swift; sourceTree = "<group>"; };
+		2C0CFC822A56EB1A0032A3D3 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,9 +158,66 @@
 			isa = PBXGroup;
 			children = (
 				2C0CFC6B2A56E8640032A3D3 /* TikTokOpenSDKCore.h */,
-				2C0CFC692A56E8370032A3D3 /* Classes */,
+				2C0CFC732A56EB1A0032A3D3 /* Classes */,
 			);
 			path = TikTokOpenSDKCore;
+			sourceTree = "<group>";
+		};
+		2C0CFC732A56EB1A0032A3D3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2C0CFC742A56EB1A0032A3D3 /* Core */,
+				2C0CFC822A56EB1A0032A3D3 /* .gitkeep */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2C0CFC742A56EB1A0032A3D3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2C0CFC752A56EB1A0032A3D3 /* Internal */,
+				2C0CFC7A2A56EB1A0032A3D3 /* Utils */,
+				2C0CFC7E2A56EB1A0032A3D3 /* Public */,
+				2C0CFC802A56EB1A0032A3D3 /* Service */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2C0CFC752A56EB1A0032A3D3 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				2C0CFC762A56EB1A0032A3D3 /* TikTokRequestHandling.swift */,
+				2C0CFC772A56EB1A0032A3D3 /* TikTokBase.swift */,
+				2C0CFC782A56EB1A0032A3D3 /* TikTokURLQueryParamsConvertible.swift */,
+				2C0CFC792A56EB1A0032A3D3 /* TikTokResponseHandling.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		2C0CFC7A2A56EB1A0032A3D3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2C0CFC7B2A56EB1A0032A3D3 /* TikTokRSA.swift */,
+				2C0CFC7C2A56EB1A0032A3D3 /* TikTokUtils.swift */,
+				2C0CFC7D2A56EB1A0032A3D3 /* TikTokInfo.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		2C0CFC7E2A56EB1A0032A3D3 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				2C0CFC7F2A56EB1A0032A3D3 /* TikTokURLHandler.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		2C0CFC802A56EB1A0032A3D3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2C0CFC812A56EB1A0032A3D3 /* TikTokAPI.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +360,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C0CFC6A2A56E8370032A3D3 /* Classes in Resources */,
+				2C0CFC8C2A56EB1A0032A3D3 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +388,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0CFC8A2A56EB1A0032A3D3 /* TikTokURLHandler.swift in Sources */,
+				2C0CFC8B2A56EB1A0032A3D3 /* TikTokAPI.swift in Sources */,
+				2C0CFC892A56EB1A0032A3D3 /* TikTokInfo.swift in Sources */,
+				2C0CFC852A56EB1A0032A3D3 /* TikTokURLQueryParamsConvertible.swift in Sources */,
+				2C0CFC882A56EB1A0032A3D3 /* TikTokUtils.swift in Sources */,
+				2C0CFC862A56EB1A0032A3D3 /* TikTokResponseHandling.swift in Sources */,
+				2C0CFC842A56EB1A0032A3D3 /* TikTokBase.swift in Sources */,
+				2C0CFC832A56EB1A0032A3D3 /* TikTokRequestHandling.swift in Sources */,
+				2C0CFC872A56EB1A0032A3D3 /* TikTokRSA.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,6 +528,7 @@
 		2C0CFC382A56E49C0032A3D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TikTok/TikTok.entitlements;
@@ -482,6 +567,7 @@
 		2C0CFC392A56E49C0032A3D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = TikTok/TikTok.entitlements;
