@@ -6,6 +6,7 @@
  */
 
 import Foundation
+import UIKit
 
 @objc (TTKSDKUtils)
 public class TikTokUtils : NSObject {

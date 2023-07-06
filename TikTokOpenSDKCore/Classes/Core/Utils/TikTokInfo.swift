@@ -9,6 +9,7 @@ import Foundation
 import var CommonCrypto.CC_SHA512_DIGEST_LENGTH
 import func CommonCrypto.CC_SHA512
 import typealias CommonCrypto.CC_LONG
+import UIKit
 
 @objc (TTKSDKInfo)
 public class TikTokInfo: NSObject {

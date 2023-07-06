@@ -27,6 +27,7 @@
 		2C0CFC8A2A56EB1A0032A3D3 /* TikTokURLHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CFC7F2A56EB1A0032A3D3 /* TikTokURLHandler.swift */; };
 		2C0CFC8B2A56EB1A0032A3D3 /* TikTokAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CFC812A56EB1A0032A3D3 /* TikTokAPI.swift */; };
 		2C0CFC8C2A56EB1A0032A3D3 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 2C0CFC822A56EB1A0032A3D3 /* .gitkeep */; };
+		2C0CFC8F2A56EBA50032A3D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0CFC8E2A56EBA50032A3D3 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		2C0CFC7F2A56EB1A0032A3D3 /* TikTokURLHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokURLHandler.swift; sourceTree = "<group>"; };
 		2C0CFC812A56EB1A0032A3D3 /* TikTokAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokAPI.swift; sourceTree = "<group>"; };
 		2C0CFC822A56EB1A0032A3D3 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		2C0CFC8E2A56EBA50032A3D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0CFC8F2A56EBA50032A3D3 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +114,7 @@
 				2C0CFC402A56E4EC0032A3D3 /* TikTokOpenShareSDK */,
 				2C0CFC5E2A56E8240032A3D3 /* TikTokOpenSDKCore */,
 				2C0CFC292A56E49B0032A3D3 /* Products */,
+				2C0CFC8D2A56EBA50032A3D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,6 +222,14 @@
 				2C0CFC812A56EB1A0032A3D3 /* TikTokAPI.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		2C0CFC8D2A56EBA50032A3D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C0CFC8E2A56EBA50032A3D3 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -685,6 +697,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/System/iOSSupport/System/Library/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -720,6 +736,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/System/iOSSupport/System/Library/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
