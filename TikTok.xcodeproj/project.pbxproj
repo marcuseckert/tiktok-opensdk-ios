@@ -31,10 +31,18 @@
 		2C0CFC982A56EBED0032A3D3 /* TikTokShareResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CFC932A56EBED0032A3D3 /* TikTokShareResponse.swift */; };
 		2C0CFC992A56EBED0032A3D3 /* TikTokShareRequest+URLParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CFC942A56EBED0032A3D3 /* TikTokShareRequest+URLParams.swift */; };
 		2C0CFC9A2A56EBED0032A3D3 /* TikTokShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CFC962A56EBED0032A3D3 /* TikTokShareService.swift */; };
+		2C0CFC9B2A56EC7A0032A3D3 /* TikTokOpenSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0CFC5D2A56E8240032A3D3 /* TikTokOpenSDKCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		2C0CFC612A56E8240032A3D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C0CFC202A56E49B0032A3D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C0CFC5C2A56E8240032A3D3;
+			remoteInfo = TikTokOpenSDKCore;
+		};
+		2C0CFC9D2A56EC7A0032A3D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2C0CFC202A56E49B0032A3D3 /* Project object */;
 			proxyType = 1;
@@ -99,6 +107,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0CFC9B2A56EC7A0032A3D3 /* TikTokOpenSDKCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +328,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2C0CFC9E2A56EC7A0032A3D3 /* PBXTargetDependency */,
 			);
 			name = TikTokOpenShareSDK;
 			productName = TikTokOpenShareSDK;
@@ -456,6 +466,11 @@
 			isa = PBXTargetDependency;
 			target = 2C0CFC5C2A56E8240032A3D3 /* TikTokOpenSDKCore */;
 			targetProxy = 2C0CFC612A56E8240032A3D3 /* PBXContainerItemProxy */;
+		};
+		2C0CFC9E2A56EC7A0032A3D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C0CFC5C2A56E8240032A3D3 /* TikTokOpenSDKCore */;
+			targetProxy = 2C0CFC9D2A56EC7A0032A3D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
