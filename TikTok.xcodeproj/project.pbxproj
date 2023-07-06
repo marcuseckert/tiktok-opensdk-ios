@@ -17,7 +17,7 @@
 		2C0CFC632A56E8240032A3D3 /* TikTokOpenSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0CFC5D2A56E8240032A3D3 /* TikTokOpenSDKCore.framework */; };
 		2C0CFC642A56E8240032A3D3 /* TikTokOpenSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0CFC5D2A56E8240032A3D3 /* TikTokOpenSDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2C0CFC6A2A56E8370032A3D3 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 2C0CFC692A56E8370032A3D3 /* Classes */; };
-		2C0CFC6C2A56E8640032A3D3 /* TikTokOpenSDKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0CFC6B2A56E8640032A3D3 /* TikTokOpenSDKCore.h */; };
+		2C0CFC6C2A56E8640032A3D3 /* TikTokOpenSDKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0CFC6B2A56E8640032A3D3 /* TikTokOpenSDKCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
