@@ -13,7 +13,6 @@
 		2C0CFC342A56E49C0032A3D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C0CFC332A56E49C0032A3D3 /* Preview Assets.xcassets */; };
 		2C0CFC432A56E4EC0032A3D3 /* TikTokOpenShareSDK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CFC422A56E4EC0032A3D3 /* TikTokOpenShareSDK.docc */; };
 		2C0CFC4F2A56E4EC0032A3D3 /* TikTokOpenShareSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0CFC412A56E4EC0032A3D3 /* TikTokOpenShareSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C0CFC572A56E5080032A3D3 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = 2C0CFC562A56E5080032A3D3 /* Classes */; };
 		2C0CFC632A56E8240032A3D3 /* TikTokOpenSDKCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0CFC5D2A56E8240032A3D3 /* TikTokOpenSDKCore.framework */; };
 		2C0CFC642A56E8240032A3D3 /* TikTokOpenSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0CFC5D2A56E8240032A3D3 /* TikTokOpenSDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2C0CFC6C2A56E8640032A3D3 /* TikTokOpenSDKCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0CFC6B2A56E8640032A3D3 /* TikTokOpenSDKCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -28,6 +27,10 @@
 		2C0CFC8B2A56EB1A0032A3D3 /* TikTokAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CFC812A56EB1A0032A3D3 /* TikTokAPI.swift */; };
 		2C0CFC8C2A56EB1A0032A3D3 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 2C0CFC822A56EB1A0032A3D3 /* .gitkeep */; };
 		2C0CFC8F2A56EBA50032A3D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0CFC8E2A56EBA50032A3D3 /* UIKit.framework */; };
+		2C0CFC972A56EBED0032A3D3 /* TikTokShareRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CFC922A56EBED0032A3D3 /* TikTokShareRequest.swift */; };
+		2C0CFC982A56EBED0032A3D3 /* TikTokShareResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CFC932A56EBED0032A3D3 /* TikTokShareResponse.swift */; };
+		2C0CFC992A56EBED0032A3D3 /* TikTokShareRequest+URLParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CFC942A56EBED0032A3D3 /* TikTokShareRequest+URLParams.swift */; };
+		2C0CFC9A2A56EBED0032A3D3 /* TikTokShareService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0CFC962A56EBED0032A3D3 /* TikTokShareService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +67,6 @@
 		2C0CFC3F2A56E4EC0032A3D3 /* TikTokOpenShareSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TikTokOpenShareSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C0CFC412A56E4EC0032A3D3 /* TikTokOpenShareSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TikTokOpenShareSDK.h; sourceTree = "<group>"; };
 		2C0CFC422A56E4EC0032A3D3 /* TikTokOpenShareSDK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TikTokOpenShareSDK.docc; sourceTree = "<group>"; };
-		2C0CFC562A56E5080032A3D3 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		2C0CFC5D2A56E8240032A3D3 /* TikTokOpenSDKCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TikTokOpenSDKCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C0CFC6B2A56E8640032A3D3 /* TikTokOpenSDKCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TikTokOpenSDKCore.h; sourceTree = "<group>"; };
 		2C0CFC762A56EB1A0032A3D3 /* TikTokRequestHandling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokRequestHandling.swift; sourceTree = "<group>"; };
@@ -78,6 +80,10 @@
 		2C0CFC812A56EB1A0032A3D3 /* TikTokAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokAPI.swift; sourceTree = "<group>"; };
 		2C0CFC822A56EB1A0032A3D3 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		2C0CFC8E2A56EBA50032A3D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2C0CFC922A56EBED0032A3D3 /* TikTokShareRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokShareRequest.swift; sourceTree = "<group>"; };
+		2C0CFC932A56EBED0032A3D3 /* TikTokShareResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokShareResponse.swift; sourceTree = "<group>"; };
+		2C0CFC942A56EBED0032A3D3 /* TikTokShareRequest+URLParams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TikTokShareRequest+URLParams.swift"; sourceTree = "<group>"; };
+		2C0CFC962A56EBED0032A3D3 /* TikTokShareService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TikTokShareService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +157,7 @@
 		2C0CFC402A56E4EC0032A3D3 /* TikTokOpenShareSDK */ = {
 			isa = PBXGroup;
 			children = (
-				2C0CFC562A56E5080032A3D3 /* Classes */,
+				2C0CFC902A56EBED0032A3D3 /* Core */,
 				2C0CFC412A56E4EC0032A3D3 /* TikTokOpenShareSDK.h */,
 				2C0CFC422A56E4EC0032A3D3 /* TikTokOpenShareSDK.docc */,
 			);
@@ -230,6 +236,34 @@
 				2C0CFC8E2A56EBA50032A3D3 /* UIKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C0CFC902A56EBED0032A3D3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				2C0CFC912A56EBED0032A3D3 /* Public */,
+				2C0CFC952A56EBED0032A3D3 /* Service */,
+			);
+			name = Core;
+			path = Classes/Core;
+			sourceTree = "<group>";
+		};
+		2C0CFC912A56EBED0032A3D3 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				2C0CFC922A56EBED0032A3D3 /* TikTokShareRequest.swift */,
+				2C0CFC932A56EBED0032A3D3 /* TikTokShareResponse.swift */,
+				2C0CFC942A56EBED0032A3D3 /* TikTokShareRequest+URLParams.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		2C0CFC952A56EBED0032A3D3 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2C0CFC962A56EBED0032A3D3 /* TikTokShareService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,7 +398,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C0CFC572A56E5080032A3D3 /* Classes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +426,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C0CFC432A56E4EC0032A3D3 /* TikTokOpenShareSDK.docc in Sources */,
+				2C0CFC992A56EBED0032A3D3 /* TikTokShareRequest+URLParams.swift in Sources */,
+				2C0CFC972A56EBED0032A3D3 /* TikTokShareRequest.swift in Sources */,
+				2C0CFC982A56EBED0032A3D3 /* TikTokShareResponse.swift in Sources */,
+				2C0CFC9A2A56EBED0032A3D3 /* TikTokShareService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,7 +666,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -664,7 +701,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -704,7 +741,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -743,7 +780,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

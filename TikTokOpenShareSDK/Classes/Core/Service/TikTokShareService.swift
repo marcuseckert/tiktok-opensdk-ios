@@ -7,6 +7,7 @@
 
 import Foundation
 import TikTokOpenSDKCore
+import UIKit
 
 @objc (TTKSDKShareService)
 class TikTokShareService: NSObject, TikTokRequestResponseHandling {
